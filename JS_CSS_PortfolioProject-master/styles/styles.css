@@ -176,14 +176,14 @@ section {
 }
 .header-content .left-header .image {
   border-radius: var(--br-sm-2);
-  height: 90%;
-  width: 68%;
+  height: 70%;
+  width: 50%;
   margin-left: 4rem;
-  background-color: var(--color-black);
   transition: all 0.4s ease-in-out;
 }
 .header-content .left-header .image img {
   width: 100%;
+  border-radius: 3.5rem;
   height: 100%;
   object-fit: cover;
   transition: all 0.4s ease-in-out;
@@ -191,6 +191,8 @@ section {
 }
 .header-content .left-header .image img:hover {
   filter: grayscale(0);
+  height: 100%;
+  width: 120%;
 }
 .header-content .right-header {
   display: flex;
@@ -481,6 +483,10 @@ section {
 .portfolio-item:hover .hover-items {
   opacity: 1;
   transform: scale(1);
+}
+.Tabl{
+  margin-top: 5rem;
+  margin-left: 2rem;
 }
 
 .blogs {
